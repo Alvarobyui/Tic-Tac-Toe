@@ -41,6 +41,7 @@ function App() {
     const newBoard = [...board]
     newBoard[index] = turn 
     setBoard(newBoard)
+    
     //cambiar el turno
     const newTurn = turn === TURNS.X ? TURNS.O : TURNS.X
     setTurn(newTurn)
